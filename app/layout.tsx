@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: "Yash Jain — Senior Full-Stack Engineer",
   description:
     "Senior full-stack engineer specializing in offline-first commerce platforms, cross-surface extension tooling, and applied AI engineering.",
-  metadataBase: new URL("https://yashj645.dev"),
+  metadataBase: new URL("https://yashj645-dev.vercel.app"),
   openGraph: {
     title: "Yash Jain — Senior Full-Stack Engineer",
     description:
       "Offline-first commerce platforms · Cross-surface extension tooling · Applied AI engineering.",
-    url: "https://yashj645.dev",
+    url: "https://yashj645-dev.vercel.app",
     siteName: "Yash Jain",
     type: "website",
   },

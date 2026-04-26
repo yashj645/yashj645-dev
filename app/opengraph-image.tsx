@@ -42,7 +42,7 @@ export default async function Image() {
               background: "hsl(160, 84%, 50%)",
             }}
           />
-          yashj645.dev
+          yashj645-dev.vercel.app
         </div>
 
         {/* Middle: name + tagline */}
