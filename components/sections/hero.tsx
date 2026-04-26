@@ -14,7 +14,7 @@ const ctas = [
   { label: "Email", href: "mailto:yashj645@gmail.com", icon: Mail, primary: true },
   { label: "GitHub", href: "https://github.com/yashj645", icon: Github },
   { label: "LinkedIn", href: "https://linkedin.com/in/yashj645", icon: Linkedin },
-  { label: "Resume", href: "/resume.pdf", icon: FileText, download: true },
+  { label: "Resume", href: "/Yash-Jain-Resume.pdf", icon: FileText, download: true },
 ];
 
 export function Hero() {
