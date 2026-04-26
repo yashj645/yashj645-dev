@@ -1,0 +1,47 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Yash Jain — Senior Full-Stack Engineer",
+  description:
+    "Senior full-stack engineer specializing in offline-first commerce platforms, cross-surface extension tooling, and applied AI engineering.",
+  metadataBase: new URL("https://yashj645.dev"),
+  openGraph: {
+    title: "Yash Jain — Senior Full-Stack Engineer",
+    description:
+      "Offline-first commerce platforms · Cross-surface extension tooling · Applied AI engineering.",
+    url: "https://yashj645.dev",
+    siteName: "Yash Jain",
+    type: "website",
+    images: [
+      {
+        url: "/og",
+        width: 1200,
+        height: 630,
+        alt: "Yash Jain — Senior Full-Stack Engineer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Yash Jain — Senior Full-Stack Engineer",
+    description:
+      "Offline-first commerce platforms · Cross-surface extension tooling · Applied AI engineering.",
+    images: ["/og"],
+  },
+  icons: {
+    icon: "/favicon.svg",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
