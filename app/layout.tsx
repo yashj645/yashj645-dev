@@ -13,21 +13,12 @@ export const metadata: Metadata = {
     url: "https://yashj645.dev",
     siteName: "Yash Jain",
     type: "website",
-    images: [
-      {
-        url: "/og",
-        width: 1200,
-        height: 630,
-        alt: "Yash Jain — Senior Full-Stack Engineer",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Yash Jain — Senior Full-Stack Engineer",
     description:
       "Offline-first commerce platforms · Cross-surface extension tooling · Applied AI engineering.",
-    images: ["/og"],
   },
   icons: {
     icon: "/favicon.svg",
