@@ -17,7 +17,7 @@ const config: Config = {
         border: "hsl(220 13% 18%)",
         muted: "hsl(220 9% 55%)",
         text: "hsl(220 13% 95%)",
-        accent: "hsl(160 84% 50%)",
+        accent: "hsl(250 80% 68%)",
       },
       animation: {
         "fade-in": "fadeIn 0.6s ease-out",

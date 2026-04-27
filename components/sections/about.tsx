@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 const skillGroups = [
   {
     label: "Frontend",
@@ -63,15 +61,9 @@ export function About() {
     >
       <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12">
         {/* Left: story */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.5 }}
-          className="lg:col-span-5"
-        >
+        <div className="lg:col-span-5">
           <span className="text-xs uppercase tracking-widest text-accent font-mono">
-            02 — About
+            About
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-6">
             Six years on the seam between web, mobile, and now AI.
@@ -98,16 +90,10 @@ export function About() {
               up by 400+ developers in its first month, and this site.
             </p>
           </div>
-        </motion.div>
+        </div>
 
         {/* Right: skills grid */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="lg:col-span-7"
-        >
+        <div className="lg:col-span-7">
           <div className="grid sm:grid-cols-2 gap-5">
             {skillGroups.map((group) => (
               <div
@@ -130,7 +116,7 @@ export function About() {
               </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
