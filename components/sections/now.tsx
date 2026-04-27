@@ -7,7 +7,7 @@ const nowItems = [
   },
   {
     title: "Faro v2",
-    desc: "Bringing trip itineraries to iOS via TestFlight and adding an offline-first conflict resolution layer for multi-device sync.",
+    desc: "Shipping an updated Android APK with improved conflict-free multi-device sync and richer trip itinerary management.",
   },
   {
     title: "Reading",

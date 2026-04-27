@@ -12,6 +12,7 @@ const skillGroups = [
       "TailwindCSS",
       "PWA",
       "Service Workers",
+      "Web Workers",
       "IndexedDB",
     ],
   },
@@ -20,7 +21,6 @@ const skillGroups = [
     items: [
       "React Native",
       "Expo SDK",
-      "Reanimated",
       "Zustand",
       "NativeWind",
     ],
@@ -34,21 +34,42 @@ const skillGroups = [
       "Redis",
       "BullMQ",
       "Kafka",
+      "Firebase",
+      "SQLite",
+      "Supabase",
       "REST APIs",
     ],
   },
   {
-    label: "AI / Tooling",
-    items: ["Claude API", "Model Context Protocol", "OSS authoring"],
+    label: "AI / Agentic",
+    items: [
+      "Claude API",
+      "Model Context Protocol",
+      "Prompt Engineering",
+      "RAG Patterns",
+      "Edge Functions",
+    ],
   },
   {
     label: "DevOps",
     items: [
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
       "Azure Pipelines",
       "GitHub Actions",
-      "Docker",
       "AWS (EC2, S3)",
-      "CI/CD",
+    ],
+  },
+  {
+    label: "Observability",
+    items: [
+      "Sentry",
+      "Grafana",
+      "OpenTelemetry",
+      "GCP Cloud Logging",
+      "Jest",
+      "Vitest",
     ],
   },
 ];
@@ -66,28 +87,28 @@ export function About() {
             About
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-6">
-            Six years on the seam between web, mobile, and now AI.
+            5+ years on the seam between web, mobile, and agentic AI.
           </h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <p>
-              I'm a senior full-stack engineer based in India. I've spent the
-              last six years building retail and commerce systems at scale —
-              first at <span className="text-text">Quinbay</span> (for{" "}
+              I'm a full-stack engineer based in India. I've spent 5+ years
+              building retail and commerce systems at scale — first at{" "}
+              <span className="text-text">Quinbay</span> (for{" "}
               <span className="text-text">Blibli.com</span>), then at{" "}
               <span className="text-text">Two Point One</span>, and now at{" "}
-              <span className="text-text">FYND</span>, where I work on the
-              StoreOS platform powering retail brands across India.
+              <span className="text-text">FYND</span>, where I architect
+              platform-level infrastructure for the StoreOS ecosystem.
             </p>
             <p>
               I'm happiest at the layer where systems meet — extension
               platforms, offline-first sync, host↔embed communication, and
-              lately, MCP tooling that lets AI agents read real-world
-              documents.
+              agentic AI tooling built on MCP and the Claude API.
             </p>
             <p>
-              Outside work, I ship side projects — a travel app called Faro
-              with four Claude integrations, an open-source MCP server picked
-              up by 400+ developers in its first month, and this site.
+              Outside work, I ship open-source and side projects — an MCP
+              server picked up by 410+ developers in its first month, and{" "}
+              <span className="text-text">Faro</span>, a travel app with 4
+              Claude API integrations running in production.
             </p>
           </div>
         </div>

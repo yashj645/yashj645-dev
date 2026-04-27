@@ -13,23 +13,23 @@ const ctas = [
 const highlights = [
   {
     name: "quip-mcp-server",
-    desc: "MCP server letting AI agents read and search Quip docs and sheets. Picked up by 400+ developers in the first month.",
+    desc: "MCP server letting AI agents read and search Quip docs and sheets. Picked up by 410+ developers in the first month.",
     stat: "410+",
-    statLabel: "developers · npm",
+    statLabel: "npm downloads · month one",
     href: "https://www.npmjs.com/package/@yashj645/quip-mcp-server",
   },
   {
     name: "FYND StoreOS — POS",
-    desc: "Offline-first point-of-sale platform powering retail brands across India. Rebuilt the sync layer and cut latency significantly.",
+    desc: "Offline-first PWA POS platform powering 10,000+ monthly transactions across retail brands in India. Cut order processing time by 67%.",
     stat: "67%",
-    statLabel: "latency reduction",
+    statLabel: "order processing reduction",
     href: null,
   },
   {
     name: "Faro",
-    desc: "A travel app with trip planning, itinerary management, and four Claude integrations. Currently in TestFlight.",
-    stat: null,
-    statLabel: null,
+    desc: "Offline-first travel app with 4 Claude AI integrations in production — place enrichment, similar destinations, NL filtering, and personalised recommendations. Ships as Android APK.",
+    stat: "4",
+    statLabel: "Claude integrations · APK live",
     href: null,
   },
 ];
@@ -51,21 +51,23 @@ export function Hero() {
 
           <div className="space-y-4 text-lg md:text-xl text-muted leading-relaxed mb-10">
             <p>
-              I'm a full-stack engineer with 6+ years of experience building web
-              and mobile products from idea to production.
+              I'm a full-stack engineer with 5+ years of experience shipping
+              agentic AI infrastructure, web, and mobile products from idea to
+              production.
             </p>
             <p>
-              I work across frontend and backend — currently at{" "}
-              <span className="text-text font-medium">FYND</span>, where I build
-              commerce and POS systems that have to work reliably at scale. I like
-              the problems that sit between systems: keeping things fast,
-              offline-capable, and easy to maintain.
+              Currently at{" "}
+              <span className="text-text font-medium">FYND</span>, where I
+              architected platform-level extension libraries adopted across web,
+              Android, and iOS — and shipped an offline-first POS PWA cutting
+              order processing time by <span className="text-text font-medium">67%</span>{" "}
+              across 10,000+ monthly transactions.
             </p>
             <p>
-              Outside of work I build things for myself — an MCP server that lets
-              AI agents read Quip docs, and{" "}
+              Outside work I ship my own things — an open-source MCP server
+              extending Claude Desktop and Claude Code (410+ npm downloads), and{" "}
               <span className="text-text font-medium">Faro</span>, a travel app
-              I've been working on with a few Claude integrations baked in.
+              with 4 Claude API integrations running in production.
             </p>
           </div>
 
